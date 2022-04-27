@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+
+@font-face {
+	font-family: 'Orchidea Pro';
+	src: url(../font/OrchideaPro-Medium.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+	background-color: #4b0007e2;
+	margin: 0;
+}
+
+.page {
+	width: 100%;
+	font-family: 'Times New Roman', Times, serif;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.header_top {
+	width: 80%;
+	align-self: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.header_top_right {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.header_down {
+	width: 90%;
+	align-self: flex-end;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+	flex:1;
+}
+
+.header_down_text {
+	width: 40%;
+	padding-top: 100px;
+}
+
+.main_header {
+	font-size: 92px;
+	margin: 15px 0;
+	font-family: 'Orchidea Pro';
+	color: rgba(255, 240, 226, 1);
+}
+
+.main_text {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 25px;
+	margin-bottom: 40px;
+	color: rgba(240, 209, 181, 1);
+
+}
+
+.main_button {
+	background-color: inherit;
+	color: #F0D1B5;
+	border: 1px solid #F0D1B5;
+	font-size: 18px;
+	padding: 18px 36px;
+	transition-duration: 0.4s;
+}
+
+.main_button:hover {
+	background-color: #2B130C;
+	color: #F0D1B5;
+}
+
+.header_down_image {
+	background-image: url(../Images/header-bottles.png);
+	width: 900px;
+	height: 600px;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	width: 100%;
+	background-color: #2B130C;
+	display: flex;
+	justify-content: center;
+	border-top: 1px solid #F0D1B5;
+	border-bottom: 1px solid #F0D1B5;
+}
+
+.header_nav {
+	width: 80%;
+	align-self: center;
+	height: 100%;
+}
+
+.header_links {
+	display: flex;
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header_link {
+		width: 100%;
+		text-align: center;
+		font-size: 25px;
+		padding: 40px 15px;
+}
+
+.header_link:hover {
+	background-color: #622228;
+}
+
+.header__link {
+	text-decoration: none;
+	color: #F0D1B5;
+}
+
+.About {
+	display: flex;
+	flex-direction: column;
+}
+
+.about_container {
+	align-self: center;
+	width: 80%;
+	/* border: 1px solid yellow; */
+	display: flex;
+	flex-direction: column;
+
+
+	margin-top: 150px;
+}
+
+.about_up {
+	display: flex;
+	justify-content: space-between;
+
+
+	margin-bottom: 50px;
+}
+
+.about_header {
+	font-family: 'Orchidea Pro';
+	color: #FFF0E2;
+	font-size: 44px;
+	margin: 0;
+}
+
+.about_text {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 17px;
+	color: #F0D1B5;
+	margin: 0;
+}
+
+.about_up_right {
+	width: 900px;
+	background-image: url(../Images/about-image.png);
+	background-position: center;
+	background-size: cover;
+}
