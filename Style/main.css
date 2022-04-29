@@ -208,6 +208,7 @@ ul,
 .Slider {
 	display:flex;
 	flex-direction: column;
+	margin-bottom: 75px;
 }
 
 .slider_container {
@@ -225,6 +226,10 @@ ul,
 .slider_cards {
 	display: flex;
 	justify-content: center;
+}
+
+.slider_list {
+	gap: 25px;
 }
 
 .card_container {
@@ -286,4 +291,70 @@ ul,
 	transform-style: preserve-3d;
 	transform: scale(1.02);
 	transition: all ease 0.3s;
+}
+
+/* Form ----------------------------------> */
+
+.Form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form_container {
+	width: 30%;
+	align-self: center;
+}	
+
+form {
+  font-family: 'Noto Sans', sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+.text_container {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+.text_container_strong {
+	margin: 0;
+	margin-bottom: 8px;
+	font-size: 21px;
+	color: #F0D1B5;
+	font-weight: 600;
+}
+
+.input_container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+	border-bottom: 2px solid #F0D1B5;
+	background-color: inherit;
+}
+
+input[placeholder="Ваш адрес электронной почты"] {
+	color: #F0D1B5;
+}
+
+input[type=image] {
+	width: 60px;
+	height: 22px;
+	padding: 8px 24px;
+	background-color: inherit;
+	border: 2px solid #F0D1B5;
+	transition-duration: 0.4s;
+}
+
+input[type=image]:hover {
+  opacity: 0.8;
+	background-color: #2B130C;
+	color: #F0D1B5;
 }
